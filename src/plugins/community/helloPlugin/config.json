@@ -1,0 +1,16 @@
+{
+  "name": "helloPlugin",
+  "type": "COMMUNITY",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "dep": {
+        "name": "appService",
+        "type": "service"
+      }
+    }
+  ],
+  "middlewares": [
+    ""
+  ]
+}

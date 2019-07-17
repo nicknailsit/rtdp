@@ -1,0 +1,13 @@
+*/.idea
+*/.env
+*/models/*
+*/mongoosemodels/*
+*/.env.*
+*/config/*
+*/data/*
+node_modules
+.idea
+.env
+src/models
+src/mongoosemodels
+src/.env.*

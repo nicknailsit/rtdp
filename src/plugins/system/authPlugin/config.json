@@ -1,0 +1,22 @@
+{
+  "name": "authPlugin",
+  "type": "SYSTEM",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "dep": {
+        "name": "jwtService",
+        "type": "service"
+      }
+    },
+    {
+      "dep": {
+        "name": "keygen",
+        "type": "lib"
+      }
+    }
+  ],
+  "middlewares": [
+    "authMiddleware"
+  ]
+}
